@@ -1,0 +1,47 @@
+# ── Python ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Entornos virtuales ───────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ── Variables de entorno ─────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Flask ────────────────────────────────────────
+instance/
+.webassets-cache
+flask_session/
+
+# ── IDEs ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Sistema Operativo ────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ─────────────────────────────────────────
+*.log
+
+# ── Cobertura de tests ───────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
